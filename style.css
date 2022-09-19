@@ -1,0 +1,115 @@
+
+.section1 {
+    background-image: url(./background_img.png);
+    height: 700px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:
+}
+
+
+.netflix-logo {
+    height: 100px; 
+}
+
+header.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%; 
+}
+
+.h-section1 h1, h2, h3 {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.h-section1 h1 {
+    font-size: 40px;
+    width: 500px; 
+}
+
+.sign-in-btn {
+    background-color: red;
+    color: white; 
+    text-decoration: none;
+    padding: 10px; 
+    height: 40px; 
+    width: 100px; 
+    border: none; 
+}
+
+.language-btn {
+    height: 40px;  
+    background-color: transparent;
+    color: white; 
+    width: 100px; 
+    padding-left: 10px; 
+}
+
+.email-input {
+    height: 55px;
+    width: 600px; 
+    background-color: white; 
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.get-started-btn {
+    background-color: red;
+    color: white; 
+    height: 60px; 
+    width: 150px; 
+    border: none; 
+    font-size: 20px; 
+}
+
+.h-section2 {
+    background-color: black;
+    height: 700px; 
+    width: auto;
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+}
+
+.h-section2 h2, p {
+    color: white; 
+    font-family: sans-serif;
+}
+
+.h-section2 h2 {
+    font-size: 40px;
+}
+
+.h-section2 p {
+    font-size: 30px;
+    width: 900px;  
+    text-align: center;
+}
+
+.h-section3 {
+    background-color: black;
+    height: 700px; 
+    width: auto;
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+}
+
+.h-section3 h2, p {
+    color: white; 
+    font-family: sans-serif;
+}
+
+.h-section3 h2 {
+    font-size: 40px;
+}
+
+.h-section3 p {
+    font-size: 30px;
+    width: 900px;  
+    text-align: center;
+}
