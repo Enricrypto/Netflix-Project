@@ -1,115 +1,386 @@
-
-.section1 {
-    background-image: url(./background_img.png);
-    height: 700px; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content:
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+.section1 {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.8) 0,
+      transparent 60%,
+      rgba(0, 0, 0, 0.8)
+    ),
+    url(./background_img.png);
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: solid 7px rgb(80, 79, 79);
+}
 
 .netflix-logo {
-    height: 100px; 
+  height: 120px;
 }
 
 header.header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 90%; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
 }
 
-.h-section1 h1, h2, h3 {
-    color: white;
-    text-align: center;
-    font-family: sans-serif;
+.header-btn {
+  border: solid white 1px;
+  color: white;
+  padding: 0px 10px;
+  width: 120px;
+}
+
+.lang-sign {
+  width: 300px;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.h-section1 h1,
+h3,
+p {
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
 }
 
 .h-section1 h1 {
-    font-size: 40px;
-    width: 500px; 
+  font-size: 50px;
+  width: 600px;
+  padding-bottom: 20px;
+}
+
+.h-section1 h3 {
+  font-size: 20px;
+}
+
+.h-section1 p {
+  height: 100px;
+  padding-top: 60px;
 }
 
 .sign-in-btn {
-    background-color: red;
-    color: white; 
-    text-decoration: none;
-    padding: 10px; 
-    height: 40px; 
-    width: 100px; 
-    border: none; 
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  height: 40px;
+  width: 120px;
+  border: none;
+  font-size: 15px;
 }
 
 .language-btn {
-    height: 40px;  
-    background-color: transparent;
-    color: white; 
-    width: 100px; 
-    padding-left: 10px; 
+  height: 40px;
+  background-color: transparent;
+  color: white;
+  width: 70px;
+  padding-left: 5px;
+  border: none;
 }
 
 .email-input {
-    height: 55px;
-    width: 600px; 
-    background-color: white; 
-    padding-left: 10px;
-    font-size: 15px;
+  height: 58px;
+  width: 450px;
+  background-color: white;
+  padding-left: 10px;
+  font-size: 15px;
+  box-shadow: 1px;
 }
 
 .get-started-btn {
-    background-color: red;
-    color: white; 
-    height: 60px; 
-    width: 150px; 
-    border: none; 
-    font-size: 20px; 
+  background-color: red;
+  color: white;
+  height: 60px;
+  width: 220px;
+  border: none;
+  font-size: 25px;
+}
+
+.title-section1 {
+  height: 400px;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: ;
 }
 
 .h-section2 {
-    background-color: black;
-    height: 700px; 
-    width: auto;
-    display: flex; 
-    flex-direction: row; 
-    align-items: center; 
+  background-color: black;
+  height: 500px;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: solid 7px rgb(80, 79, 79);
 }
 
-.h-section2 h2, p {
-    color: white; 
-    font-family: sans-serif;
+.h-section2 div {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.h-section2 h2,
+p {
+  color: white;
+  font-family: sans-serif;
 }
 
 .h-section2 h2 {
-    font-size: 40px;
+  font-size: 40px;
+}
+
+.h-section2 div p {
+  text-align: left;
+  width: 600px;
 }
 
 .h-section2 p {
-    font-size: 30px;
-    width: 900px;  
-    text-align: center;
+  font-size: 30px;
+  width: 900px;
+  text-align: center;
 }
 
 .h-section3 {
-    background-color: black;
-    height: 700px; 
-    width: auto;
-    display: flex; 
-    flex-direction: row; 
-    align-items: center; 
+  background-color: black;
+  height: 500px;
+  width: auto;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: solid 7px rgb(80, 79, 79);
 }
 
-.h-section3 h2, p {
-    color: white; 
-    font-family: sans-serif;
+.h-section3 div {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.h-section3 div p {
+  text-align: left;
+  width: 600px;
+}
+
+.h-section3 h2,
+p {
+  color: white;
+  font-family: sans-serif;
 }
 
 .h-section3 h2 {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 .h-section3 p {
-    font-size: 30px;
-    width: 900px;  
-    text-align: center;
+  font-size: 30px;
+  width: 900px;
+  text-align: center;
+}
+
+.h-section4 {
+  background-color: black;
+  height: 500px;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: solid 7px rgb(80, 79, 79);
+}
+
+.h-section4 div {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.h-section4 div p {
+  text-align: left;
+  width: 600px;
+}
+
+.h-section4 h2,
+p {
+  color: white;
+  font-family: sans-serif;
+}
+
+.h-section4 h2 {
+  font-size: 40px;
+}
+
+.h-section4 p {
+  font-size: 30px;
+  width: 900px;
+  text-align: center;
+}
+
+.h-section5 {
+  background-color: black;
+  height: 500px;
+  width: auto;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: solid 7px rgb(80, 79, 79);
+}
+
+.h-section5 div {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.h-section5 div p {
+  text-align: left;
+  width: 600px;
+}
+
+.h-section5 h2,
+p {
+  color: white;
+  font-family: sans-serif;
+}
+
+.h-section5 h2 {
+  font-size: 40px;
+}
+
+.h-section5 p {
+  font-size: 30px;
+  width: 900px;
+  text-align: center;
+}
+
+.h-section6 {
+  background-color: black;
+  height: 700px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.h-section6 h2 {
+  height: 100px;
+  width: 600px;
+  font-size: 40px;
+  font-family: sans-serif;
+  color: white;
+  padding-top: 30px;
+}
+
+.buttons {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: none;
+  outline: none;
+}
+
+.button {
+  display: inline-flex;
+  height: 65px;
+  width: 800px;
+  margin: 3px;
+  background-color: rgba(169, 169, 169, 0.264);
+  color: white;
+  font-size: 22px;
+  text-align: left;
+  font-family: sans-serif;
+  padding-top: 15px;
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+
+.button__icon {
+  display: flex;
+  align-content: flex-end;
+}
+
+.h-section7 {
+  background-color: black;
+  height: 300px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-bottom: solid 7px rgb(80, 79, 79);
+  padding-bottom: 50px;
+}
+
+.h-section7 p {
+  color: white;
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+.footer {
+  background-color: black;
+  color: grey;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  height: 400px;
+  gap: 2rem;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+div.ul-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 200px;
+  width: 900px;
+}
+
+div.ul-list ul {
+  list-style: none;
+}
+
+div.ul-list ul li {
+  padding-bottom: 1rem;
+}
+
+div.ul-list ul li a {
+  text-decoration: none;
+  color: grey;
+  font-size: 13px;
+  font-family: sans-serif;
+}
+
+h5 {
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.language-btn2 {
+  height: 50px;
+  background-color: transparent;
+  color: white;
+  width: 100px;
+  padding-left: 10px;
 }
